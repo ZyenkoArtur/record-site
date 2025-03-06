@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:fragment = header:"header">
+<head>
+    <meta charset="UTF-8">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+    <div th:replace="layouts/header::header"></div>
+    <div class="container">
+<form class="body_avt" method="post" th:action="@{/reg}">
+    <h1> Реєстрація</h1>
+    <input type="text" name="username" placeholder="Введіть імя користувача">
+    <input type="email" name="email" placeholder="Введіть email">
+    <input type="password" name="password" placeholder="Введіть пароль">
+    <button type="submit" class="btn">Зареєструватися</button>
+
+
+</form>
+    </div>
+</body>
+<div th:replace="layouts/footer::footer"></div>
+</html>

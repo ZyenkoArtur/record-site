@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:fragment = header:"header">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:replace="layouts/header::header"></div>
+<div class="container">
+    <div class="body_avt">
+    <h1>Вхід</h1>
+    <input type="text" placeholder="Введіть email">
+    <input type="text" placeholder="Введіть пароль">
+        <button class="btn_login">Вхід</button>
+
+
+
+    </div>
+
+    </div>
+</body>
+<div th:replace="layouts/footer::footer"></div>
+</html>

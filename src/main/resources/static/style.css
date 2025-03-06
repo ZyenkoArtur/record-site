@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sofia+Sans+Semi+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+nav a{
+    font-family: "Bebas Neue", sans-serif;
+    text-decoration: none;
+    color: white;
+    transition:color 500ms ease;
+    padding-left: 15px;
+    font-size: 20px;
+}
+nav a:hover{
+    color: silver;
+}
+header{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    padding: 10px 20px ;
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(to top, #03030365, #08165c) ;
+}
+ .logo a{
+    transition:color 300ms ease;
+    font-family: "Bebas Neue", sans-serif;
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    text-shadow: 3 0 0 white;
+}
+.logo a:hover{
+    color: silver;
+}
+body{
+background-color: #cbd1cc;
+background-image: url("https://images.wallpaperscraft.ru/image/single/avto_fara_temnyj_fon_119621_1920x1080.jpg");
+background-size: cover;
+}
+.body{
+
+padding: 60px 300px 10px;
+}    
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+}
+.body_avt{
+    padding: 10px;
+    margin-top: 40px;
+    gap: 10px;
+    width: 400px;
+    height: 500px;
+    border-radius: 80px; 
+    background-color: rgba(0, 0, 0, 0.049);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+border-color: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #3e3c3c;
+}
+
+th {
+    background: linear-gradient(to right, #1a1694b2, #041569);
+    color: white;
+    text-transform: uppercase;
+}
+input{
+    margin-top: 6px;
+    width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    color: black;
+    background-color: silver;
+    border: 2px solid black;
+}
+.btn, .btn_login{
+    margin-top: 30px;
+    color: white;
+    background: linear-gradient(to right, #100ab8cc, #041569);
+    border-radius: 12px;
+    border: 2px solid black;
+    transition:color 300ms ease;
+}
+.btn_login{
+    padding: 10px 30px;
+}
+.btn{
+    padding: 10px;
+}
+.btn:hover{
+    color: black;
+}
+.btn_login:hover{
+    color: black;
+}
+.container{
+    background-image: url("https://images.wallpaperscraft.ru/image/single/bmw_fary_podsvetka_137326_1920x1080.jpg");
+    background-size: cover;
+}
+.footer{
+    color: white;
+    font-size: 20px;
+    background:linear-gradient(to bottom, #03030365, #08165c) ;
+position: absolute;
+width: 100%;
+bottom: 0;
+text-align: center;
+padding: 15px 0;
+}
+td{
+    color: white;
+}
+.footer{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
